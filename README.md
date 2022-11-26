@@ -13,6 +13,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Описание ошибки
 
+Текст ошибки:
+./src/app/app.component.ts:2:0-63 - Error: Module not found: Error: Package path ./lib/services/test-service.service is not exported from package ...\ex\my-app\node_modules\my-lib (see exports field in ...\ex\my-app\node_modules\my-lib\package.json)
+
 ```js
 import { Component } from '@angular/core';
 //import { TestServiceService } from 'my-lib/lib/services/test-service.service';//dont work
