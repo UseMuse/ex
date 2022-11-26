@@ -31,7 +31,7 @@ export class AppComponent {
 
 # Как воспроизвести ошибку
 
-Скачиваем репозиторий, заходим в my-libs-workspace, выполняем команды npm install, npm run pack.
-Заходим в my-app, выполняем команды npm install, npm run install:my-lib, запускаем проект npm run start
+Скачиваем репозиторий, заходим в my-libs-workspace, выполняем команды npm install, npm run pack. <br>
+Заходим в my-app, выполняем команды npm install, npm run install:my-lib, запускаем проект npm run start<br>
 В файле app.component.ts меняем импорт с нерабочего на рабочий
 
