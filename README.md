@@ -33,5 +33,5 @@ export class AppComponent {
 
 Скачиваем репозиторий, заходим в my-libs-workspace, выполняем команды npm install, npm run pack. <br>
 Заходим в my-app, выполняем команды npm install, npm run install:my-lib, запускаем проект npm run start<br>
-В файле app.component.ts меняем импорт с нерабочего на рабочий
+Наблюдаем ошибку, чтобы устранить ошибку, в файле app.component.ts меняем импорт с нерабочего на рабочий
 
