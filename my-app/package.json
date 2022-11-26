@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "install:my-lib": "ng cache clean && npm install ../my-libs-workspace/dist/my-lib/my-lib-0.0.1.tgz",
+    "install:my-lib": "ng cache clean && npm install ../my-libs-workspace/dist/my-lib/my-lib-0.0.1.tgz && npm install",
     "test": "ng test"
   },
   "private": true,
