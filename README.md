@@ -38,4 +38,12 @@ export class AppComponent {
 Заходим в my-app, выполняем команды npm install, npm run install:my-lib, запускаем проект npm run start<br>
 Наблюдаем ошибку, чтобы устранить ошибку, в файле app.component.ts меняем импорт с нерабочего на рабочий
 
-# Вопрос, как настроить библиотеку так, чтобы была возможность импортировать файлы библиотеки "по полному пути" и не полному ??
+# Вопросы
+
+Как сделать сконфигурировать рабочее пространство библиотек или саму библиотеку или проект использующий библиотеку, таким образом, чтобы было возможно импортировать сущности из библиотеки my-lib различными способами, например:
+```ts
+import { TestServiceService } from 'my-lib';
+import { TestServiceService } from 'my-lib/lib/services';
+import { TestServiceService } from 'my-lib/lib/services/test-service.service';
+```
+
