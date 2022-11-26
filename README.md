@@ -43,7 +43,7 @@ export class AppComponent {
 Как сделать сконфигурировать рабочее пространство библиотек или саму библиотеку или проект использующий библиотеку, таким образом, чтобы было возможно импортировать сущности из библиотеки my-lib различными способами, например:
 ```ts
 import { TestServiceService } from 'my-lib';
-import { TestServiceService } from 'my-lib/lib/services';
-import { TestServiceService } from 'my-lib/lib/services/test-service.service';
+import { TestServiceService } from 'my-lib/lib/services';// не работает, а хотелось бы
+import { TestServiceService } from 'my-lib/lib/services/test-service.service';// не работает, а хотелось бы
 ```
 
