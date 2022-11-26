@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-//import { TestServiceService } from 'my-lib/lib/services/test-service.service';//dont work
-import { TestServiceService } from 'my-lib'; //work
+import { TestServiceService } from 'my-lib/lib/services/test-service.service'; //dont work
+// import { TestServiceService } from 'my-lib'; //work
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
